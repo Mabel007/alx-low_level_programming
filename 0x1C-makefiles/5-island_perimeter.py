@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def island_perimeter(grid):
     """
     Returns the perimeter of the island.
@@ -20,5 +19,3 @@ def island_perimeter(grid):
                     edges += 1
 
     return ((size * 4) - (edges * 2))
-
-
